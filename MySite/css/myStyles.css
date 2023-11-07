@@ -1,0 +1,65 @@
+/*Fonts from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+/*font-family: 'Playpen Sans', cursive*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+
+
+#masthead{
+    background-image: url(../images/MountainPicture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-color: black;
+}
+.bio {
+    font-family: 'Playpen Sans', cursive;
+    color: #CC0000;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #991F1F;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav a, nav a:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+  }
+/* Hover sate for nav buttons*/
+/*pseudo-class for hover*/
+nav a:hover{ 
+    background-color: rgb(152, 31, 31);
+    color: black;
+    
+
+}
+
+
+
+/*class for sticky navigation*/
+
+.sticky{
+
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+
+}
