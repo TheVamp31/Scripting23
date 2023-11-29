@@ -1,0 +1,150 @@
+/*Put all Fonts at top!*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*These are default styles*/
+body{
+    font-family: 'Nosifer';
+    color: white;
+    background-image: linear-gradient(to bottom, #592026, #722229, #8b232a, #a3252a, #bc2727);
+}
+
+h1 {font-family: 'Creepster';
+    font-size: 70px;
+}
+h2 {font-family: 'Creepster';
+    font-size: 50px;
+}
+
+
+/**********************************Header*****************/
+header{
+    background-color: #592026;
+   
+    /*center the text*/
+    text-align: center;
+    /*add padding - 30 pixels*/
+    padding: 30px;
+}
+
+
+#diffI{
+    color: red;
+}
+
+/**********Navigation Bar***************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #460707;
+  }
+
+nav li {
+    float: left;
+  }
+  
+nav a, nav a:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+  }
+/* Hover sate for nav buttons*/
+/*pseudo-class for hover*/
+nav a:hover{ 
+    background-color: rgb(152, 31, 31);
+
+}
+
+
+
+/*class for sticky navigation*/
+
+.sticky{
+
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+
+}
+
+
+
+/*************Section**********/
+section{
+    background-color: #660f18;
+    /*no Pixel amount - use percent or vw (viewport width)*/
+    width: 75vw;
+    /*center the section but top and bottom spacing is none*/
+    /*top, bottom - left, rigth*/
+    margin: auto;
+    /*adds space inside the sections*/
+    padding: 20px;
+    /*fix issue with image height not being recognized by the section*/
+    overflow: hidden;
+}
+
+/*CLASS- reuable bit of css that you put on elements*/
+/*start in css with a dot (period)*/
+
+.name {
+    color: black;
+}
+.tagline {
+    font-size: 20px;
+}
+
+.section {
+    font-family: 'Roboto';
+}
+
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+.alternate{
+    background-color: #592026;
+
+}
+
+.ImageAlt {
+    display: inline;
+    float: left;
+}
+
+/*******Styled Links*******/
+/*order is important*/
+/*default*/
+
+/*diplay color*/
+a{
+    color:white;
+}
+
+/*Visited*/
+a:visited{
+    color: #ef3232;
+}
+
+/*hover over it*/
+a:hover{
+    color: lightskyblue;
+}
+
+/*when its active, when you click on it*/
+a:active{
+    color: white;
+}
