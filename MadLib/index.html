@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadLibs</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!--------YOUR CSS - MUST go after the CDNs so you overwrite their styles---------------->
+	<link rel="stylesheet" href="css/MyStyles.css">
+
+</head>
+<body>
+
+    <section id="masthead">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center text-black-50 py-5 ">
+					<h1>Mad 'Libs for Kids'</h1>
+					<p>For Kids Only!</p>
+				</div> <!--end colum-->
+			</div><!--ends row-->
+		</div><!---ends container-->
+		
+	</section>
+
+    <section id="portfolio">
+		<!--you only need one container per section-->
+		<div class="container">
+			<!--row with one 12 column in it-->
+			<div class="row mt-5">
+				<div class="col-sm-12 text-center bg-warning">
+					<h2>Portfolio</h2>
+                    <h4>On this website you will fill in ALL the boxes &amp; make a selection of Zoo or Museum. Once you are happy with your selections, hit the Submit button, and wait for the magic to happen!</h4>
+                    
+				</div>
+			</div><!--ends first row-->
+		</div><!--Ends 3rd row-->
+		
+	</section>
+
+    <div class="row my-5 p-3 text-center text-uppercase bg-warning">
+        <div class="col-sm-6 mx-auto">
+
+            <!--Form Goes Here-->
+            <!--The HTML <form> element is used to create an HTML form for user input-->
+            <!--One of the most used form element is the <input> element. This creates an input into which the user can enter information-->
+            <!--The 'type' attribute will change the way the input looks-->
+            <!--The <label> element defines a label for several form elements. -->
+            <!--Then we will use a button to trigger our Javascript code!-->
+            
+            <form action="javascript:write();">
+                <div class="form-group">
+                    <label for="Name"> Name Of Someone You Know:</label>
+                    <input class="form-control" type="text" id="Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="Number"> Number between 100 &amp; 1,000:</label>
+                    <input class="form-control" type="text" id="Number">
+                </div>
+                
+                <div class="form-group">
+                    <label for="Town"> Name Of A Real or Fake Town:</label>
+                    <input class="form-control" type="text" id="Town">
+                </div>
+                
+                <div class="form-group">
+                    <label for="Colour"> Favourite Colour:</label>
+                    <input class="form-control" type="text" id="Colour">
+                </div>
+
+                <div class="form-group">
+                    <label for="Exclamation"> Exclamation, (Ex.Hey):</label>
+                    <input class="form-control" type="text" id="Exclamation">
+                </div>
+
+                <div class="form-group">
+                    <label for="MystAni"> A Mystical Animal (Ex. Griffin, Dragon):</label>
+                    <input class="form-control" type="text" id="MystAni">
+                </div>
+
+                <div class="form-group">
+                    <label for="Body"> Body Part:</label>
+                    <input class="form-control" type="text" id="Body">
+                </div>
+
+                <div class="form-group">
+                    <label for="StName"> Name Of A Real or Fake Store:</label>
+                    <input class="form-control" type="text" id="StName">
+                </div>
+
+                <div class="form-group">
+                    <label for="StType"> Type of Store (Ex. Grocery, Book):</label>
+                    <input class="form-control" type="text" id="StType">
+                </div>
+
+                <div class="form-group">
+                    <label for="Actioned"> Action Ending in -ed (Ex. Crawled, Rolled):</label>
+                    <input class="form-control" type="text" id="Actioned">
+                </div>
+
+                <div class="form-group">
+                    <label for="Toy"> A Toy:</label>
+                    <input class="form-control" type="text" id="Toy">
+                </div>
+
+                <div class="form-group">
+                    <label for="Expression"> Expression Ending in -ed (Ex. Surprised):</label>
+                    <input class="form-control" type="text" id="Expression">
+                </div>
+
+                <div class="form-group">
+                    <label for="Animal"> Favourite Animal:</label>
+                    <input class="form-control" type="text" id="Animal">
+                </div>
+
+                <div class="form-group">
+                    <label for="Material"> A Type of Material (EX. Concrete, Cotton):</label>
+                    <input class="form-control" type="text" id="Material">
+                </div>                
+
+                <div class="form-group">
+                    <label for="ActionPast"> Action In The Past Tense (Ex. Pushed, Attacked):</label>
+                    <input class="form-control" type="text" id="ActionPast">
+                </div>
+
+                <div class="form-group">
+                    <label for="Word"> Real or Made Up Word:</label>
+                    <input class="form-control" type="text" id="Word">
+                </div>
+
+                <div class="form-group">
+                    <label for="FicChar"> Favourite Fictional (Fake) Character:</label>
+                    <input class="form-control" type="text" id="FicChar">
+                </div>
+
+                <div class="form-group">
+                    <label for="Exercise"> Exercise (Ex. Jumping Jacks):</label>
+                    <input class="form-control" type="text" id="Exercise">
+                </div>
+
+                <div class="form-group">
+                    <label for="Actioning"> Action ending -ing:</label>
+                    <input class="form-control" type="text" id="Actioning">
+                </div>
+
+                <div class="form-group">
+                    <label for="Tran"> Type of Transport (Ex. Bike, Bus, Plane):</label>
+                    <input class="form-control" type="text" id="Tran">
+                </div>
+
+                pick Which One You prefer:
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="prefer" value="Zoo">
+                        Zoo
+                      </label>
+                </div>
+
+                <div>
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="prefer" value="Museum"> Museum </label>
+                </div>
+                 
+               <button type="submit" class="btn-block btn-outline-danger">Submit</button> 
+
+            </form>
+
+    
+            <div id="output" class=" my-5 p-3 text-center text-white bg-warning ">
+                
+            </div>
+
+
+        </div>  
+    </div>
+	
+<!---------------------------------About------------------------------------>
+	
+<section id="about">
+    <!--Container, row, column that spans 12, with h2 in it-->
+    <!--make the text white, padding-->
+
+    <div class="container text-white .bg-warning"> 
+
+        <div class="row mt-5 pt=5">
+            
+            <div class="col-sm-12 text-center text-uppercase">
+                <h2>ANNOUNCEMENTS!</h2>
+            </div><!--Ends Column-->
+
+        </div><!--Ends 1st Row-->
+
+
+
+        <div class="row">
+            
+            <div class="col-sm-12 text-center">
+                <p>More MadLibs will be added Weekly!. Make Sure to check every week for updates</p>
+            </div>
+
+            
+            
+
+        </div><!--Ends 2nd Row-->
+
+    </div><!--Ends container-->
+    
+    
+</section>
+
+
+
+
+<!---------------------------------Footer------------------------------------>
+
+<footer class="text-white py-5 text-center bg-warning"> <!--P= Padding, Y=Up Down, X= Left Right-->
+
+    <!--Container, row, 3 columns-->
+    <div class="container">
+
+        <div class="row">
+
+            <!--Left Column-->
+            <div class="col-sm-4"> 
+                <h5>LOCATION</h5>
+                <p>, Lethbridge, Alberta</p>
+            </div>
+            
+            <!--Middle Column-->
+            <div class="col-sm-4"> 
+                <h5>SOCIALS</h5>
+                <p>Facebook- Coming Soon!</p>
+            </div>
+            
+            <div class="col-sm-4"> 
+                <h5>CREATORS</h5>
+                <p>Amelia Legge</p>
+            </div>
+
+
+        </div><!--Ends Row 1-->
+    
+    </div><!--Ends Container-->
+
+</footer>
+
+<!--Javascript-->
+<script src="js/MadLibs.js"></script>
+
+</body>
+</html>

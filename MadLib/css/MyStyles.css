@@ -1,0 +1,25 @@
+#masthead{
+    background-color: #c5b151;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#portfolio{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#about{
+    background-color: #00bc9b;
+   }
+   
+   .bg-darkGrey{
+       background-color: #333132
+   }
+   .bg-scallop{
+       
+       background-color: #333132;
+   }
+
+   body {
+    background-image: url(../images/FossilPattern.jpg);
+
+  }
